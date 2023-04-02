@@ -35,7 +35,7 @@ const Hero = () => {
     }
 
     return(
-        <div className=" text-almost-black font-Epilogue text-main flex flex-col justify-center items-center relative">
+        <div className=" text-almost-black font-Epilogue text-main flex flex-col justify-center items-center relative w-scren h-screen">
             {/* large screens */}
             <nav className=" md:px-52 hidden md:flex justify-between items-center md:w-screen my-6 px-6 text-sm text-medium-gray">
                 <div className="flex justify-evenly items-center space-x-8">
@@ -73,16 +73,16 @@ const Hero = () => {
             </nav>
             <div className="flex flex-col justify-center items-center md:flex-row-reverse md:px-52 md:py-8">
                 <img src="/images/image-hero-mobile.png" alt="Hero Mobile" className="p-2 my-4 md:hidden"/>
-                <img src="/images/image-hero-desktop.png" alt="Hero Destop" className="hidden md:block md:w-[70%]" />
+                <img src="/images/image-hero-desktop.png" alt="Hero Destop" className="hidden md:block md:w-[35%]" />
                 <div className="md:flex md:flex-col md:items-start justify-center items-center flex flex-col md:pr-[100px]">
-                    <h1 className=" text-4xl md:text-[80px] md:leading-[70px] font-bold my-4 md:mb-8">Make remote work</h1>
-                    <p className=" text-medium-gray text-base md:text-start md:text-xl text-center mb-4 px-4 md:px-0 md:mb-6">Get your team in sync. no matter your location. Streamline processes, create team rituals, and watch productivity soar</p>
-                    <button className=" text-almost-white text-base my-2 hover:border md:text-xl md:mb-6 hover:border-solid hover:border-almost-black hover:bg-transparent hover:text-almost-black bg-almost-black transition">Learn more</button>
-                    <div className="flex justify-evenly space-x-6 md:space-x-8 my-4 px-2 md:mt-20">
-                        <img className="h-4 md:h-6" src="/images/client-audiophile.svg" alt="Client Audiophile" />
-                        <img className="h-4 md:h-6" src="/images/client-databiz.svg" alt="Client Databiz" />
-                        <img className="h-4 md:h-6" src="/images/client-maker.svg" alt="Client Maker" />
-                        <img className="h-4 md:h-6" src="/images/client-meet.svg" alt="Client Meet" />
+                    <h1 className=" text-4xl md:text-[60px] md:leading-[50px] font-bold my-4 md:mb-8">Make remote work</h1>
+                    <p className=" text-medium-gray text-base md:text-start md:text-lg text-center mb-4 px-4 md:px-0 md:mb-6">Get your team in sync. no matter your location. Streamline processes, create team rituals, and watch productivity soar</p>
+                    <button className=" text-almost-white text-base my-2 hover:border md:text-lg md:mb-6 hover:border-solid hover:border-almost-black hover:bg-transparent hover:text-almost-black bg-almost-black transition">Learn more</button>
+                    <div className="flex justify-evenly space-x-6 md:space-x-8 my-4 px-2 md:mt-10">
+                        <img className="h-4 md:h-5" src="/images/client-audiophile.svg" alt="Client Audiophile" />
+                        <img className="h-4 md:h-5" src="/images/client-databiz.svg" alt="Client Databiz" />
+                        <img className="h-4 md:h-5" src="/images/client-maker.svg" alt="Client Maker" />
+                        <img className="h-4 md:h-5" src="/images/client-meet.svg" alt="Client Meet" />
                     </div>
                 </div>
             </div>

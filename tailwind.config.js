@@ -16,7 +16,8 @@ export default {
       },
       fontFamily: {
         'Epilogue': ['Epilogue', 'sans-serif'],
-      }
+      },
+      
     },
   },
   plugins: [],
