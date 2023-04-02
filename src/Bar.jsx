@@ -44,7 +44,7 @@ const Bar = () => {
     }
 
     return (
-        <div id="bar" className=" font-Epilogue text-almost-black text-main w-[60%] bg-almost-white absolute h-screen left-[150px] top-0 px-6 hidden transition-transform">
+        <div id="bar" className=" drop-shadow-2xl font-Epilogue text-almost-black text-main w-[60%] bg-almost-white absolute h-screen left-[150px] top-0 px-6 hidden transition-transform">
             <img id="closeButton" onClick={toggleClose} src="/images/icon-close-menu.svg" alt="Icon Close Menu" className="w-7 py-4 ml-[155px] transform transition" />
             <ul className="flex flex-col justify-center items-start text-medium-gray text-sm space-y-4">
                 <li onClick={visibleToggle} className="flex flex-col">
