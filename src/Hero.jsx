@@ -78,7 +78,7 @@ const Hero = () => {
                     <h1 className=" text-4xl md:text-[80px] md:leading-[70px] font-bold my-4 md:mb-8">Make remote work</h1>
                     <p className=" text-medium-gray text-base md:text-start md:text-xl text-center mb-4 px-4 md:px-0 md:mb-6">Get your team in sync. no matter your location. Streamline processes, create team rituals, and watch productivity soar</p>
                     <button className=" text-almost-white text-base my-2 hover:border md:text-xl md:mb-6 hover:border-solid hover:border-almost-black hover:bg-transparent hover:text-almost-black bg-almost-black transition">Learn more</button>
-                    <div className="flex justify-evenly space-x-8 my-4 px-2 md:mt-20">
+                    <div className="flex justify-evenly space-x-4 md:space-x-8 my-4 px-2 md:mt-20">
                         <img className="h-6" src="/images/client-audiophile.svg" alt="Client Audiophile" />
                         <img className="h-6" src="/images/client-databiz.svg" alt="Client Databiz" />
                         <img className="h-6" src="/images/client-maker.svg" alt="Client Maker" />
