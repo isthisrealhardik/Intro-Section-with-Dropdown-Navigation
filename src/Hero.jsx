@@ -35,7 +35,7 @@ const Hero = () => {
     }
 
     return(
-        <div className=" text-almost-black font-Epilogue text-main flex flex-col justify-center items-center relative w-scren h-screen">
+        <div className=" text-almost-black font-Epilogue text-main flex flex-col justify-between py-4 items-center relative w-screen h-screen">
             {/* large screens */}
             <nav className=" md:px-52 hidden md:flex justify-between items-center md:w-screen my-6 px-6 text-sm text-medium-gray">
                 <div className="flex justify-evenly items-center space-x-8">
@@ -45,7 +45,7 @@ const Hero = () => {
                             Features 
                             <img src="/images/icon-arrow-down.svg" alt="Features" className="ml-2 h-2" />
                         </div>
-                        <div id="NavOne" className="transition absolute top-[50px] my-4 bg-white drop-shadow-lg px-4 py-1 rounded-lg hidden">
+                        <div id="NavOne" className="transition absolute top-[60px] my-4 bg-white drop-shadow-lg px-4 py-1 rounded-lg hidden">
                             <DropDown dropdown={Dropdown} />
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Hero = () => {
                             Company 
                             <img src="/images/icon-arrow-down.svg" alt="Company" className="ml-2 h-2" />
                         </div>
-                        <div id="NavTwo" className="transition absolute top-[50px] my-4 bg-white drop-shadow-lg px-4 py-1 rounded-lg hidden">
+                        <div id="NavTwo" className="transition absolute top-[60px] my-4 bg-white drop-shadow-lg px-4 py-1 rounded-lg hidden">
                             <DropDown dropdown={DropdownTwo}/>
                         </div>
                     </div>
